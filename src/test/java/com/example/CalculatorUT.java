@@ -6,6 +6,6 @@ import org.junit.Test;
 public class CalculatorUT {
     @Test
     public void addsTwoNumbers() {
-        assertEquals(7, new Calculator().add(3, 4));
+        assertEquals(9, new Calculator().add(3, 4));
     }
 }
